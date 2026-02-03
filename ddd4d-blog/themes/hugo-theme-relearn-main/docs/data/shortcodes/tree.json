@@ -1,7 +1,0 @@
-{
-  "title": "Tree",
-  "name": "tree",
-  "elementType": "explicit-end",
-  "outputType": "markdown",
-  "formats": ["markdown-codefence", "shortcode", "partial"]
-}

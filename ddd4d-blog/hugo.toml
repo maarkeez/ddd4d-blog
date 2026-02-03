@@ -1,6 +1,6 @@
-baseURL = 'https://maarkeez.github.io/ddd4d.github.io/'
+baseURL = 'https://maarkeez.github.io/ddd4d-blog'
 languageCode = 'en-us'
-title = 'Domain Driven Design for Dummies'
+title = 'Domain Driven Design 4 D'
 theme = 'hugo-theme-relearn'
 
 [caches]
