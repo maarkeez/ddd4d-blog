@@ -79,7 +79,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
-          hugo \
+          cd ddd4d-blog && hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
@@ -93,7 +93,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./ddd4d-blog/public
   deploy:
     environment:
       name: github-pages
