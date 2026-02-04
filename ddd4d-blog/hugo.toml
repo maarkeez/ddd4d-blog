@@ -5,7 +5,8 @@ theme = 'hugo-theme-relearn'
 
 [params]
   linkTitle = "DDD Blog"
-
+  themeVariant = ['auto', 'zen-light', 'zen-dark']
+  themeVariantAuto = ['zen']
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
