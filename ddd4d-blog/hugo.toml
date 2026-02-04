@@ -7,6 +7,7 @@ theme = 'hugo-theme-relearn'
   linkTitle = "DDD Blog"
   themeVariant = ['auto', 'zen-light', 'zen-dark']
   disableLandingPageButton = true
+  showVisitedLinks = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
