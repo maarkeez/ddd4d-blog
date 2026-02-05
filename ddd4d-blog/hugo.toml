@@ -19,3 +19,4 @@ theme = 'hugo-theme-relearn'
 [markup]
   [markup.highlight]
     lineNos = true
+    style = 'catppuccin-latte'
