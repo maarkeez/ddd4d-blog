@@ -8,9 +8,8 @@ theme = 'hugo-theme-relearn'
   themeVariant = ['auto', 'zen-light', 'zen-dark']
   disableLandingPageButton = true
   showVisitedLinks = true
+  highlightWrap = false
+  lineNumbersInTable = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-[markup]
-  [markup.highlight]
-    lineNumbersInTable = true
