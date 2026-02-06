@@ -622,6 +622,33 @@ Underscores
 
 ------
 
+## Mermaid diagram
+
+```mermaid
+---
+title: Event Storming
+config:
+  look: handDrawn
+---
+block-beta
+columns 3
+    entity("Book"):3
+    command_1("Register new book")
+    policy_1("When authenticated")
+    event_1("Book registered")
+    readModel_1("Book details")
+
+    classDef event fill:#fae661,stroke:#333,color:black;
+    classDef command fill:#abd7ed,stroke:#333,color:black;
+    classDef policy fill:#dfa6e3,stroke:#333,color:black;
+    classDef readModel fill:#9ee88b,stroke:#333,color:black;
+    
+    class event_1 event
+    class command_1 command
+    class policy_1 policy
+    class readModel_1 readModel
+```
+
 # YouTube Videos
 
 ```
